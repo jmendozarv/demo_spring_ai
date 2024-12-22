@@ -1,4 +1,4 @@
-package spring.ai.example.spring_ai_demo;
+package spring.ai.example.demo;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.boot.CommandLineRunner;
