@@ -8,11 +8,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 class OpeAiServiceImplTest {
 
   @Autowired
-  private OpeAiServiceImpl opeAiService;
+  private OpenAiServiceImpl opeAiService;
 
   @Test
   void getAnwer() {
-    String answer = opeAiService.getAnwer("Tell me a dad joke");
+    String answer = opeAiService.getAnswer("Write a python script to output numbers from 1 to 100.");
     System.out.println("Go to answer");
     System.out.println(answer);
   }
